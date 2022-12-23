@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+prokka_ann_rfam_00004 -          CARDB                PF07705.14   5.9e-11   31.1  11.1   4.1e-07   18.8   0.1   5.7   6   2   0   6   6   6   3 -
+prokka_ann_rfam_00004 -          DUF11                PF01345.21   1.9e-07   20.1  10.8   6.8e-05   11.8   0.1   5.0   6   0   0   6   6   6   2 -
+prokka_ann_rfam_00008 -          DZR_2                PF18912.3    2.2e-06   16.1   0.3     3e-06   15.7   0.3   1.2   1   0   0   1   1   1   1 -
+prokka_ann_rfam_00008 -          Gin                  PF10764.12   2.5e-06   16.0   0.3   4.6e-06   15.1   0.3   1.5   1   1   0   1   1   1   1 -
+prokka_ann_rfam_00004 -          Integrin_alpha2      PF08441.15     3e-05   11.6   0.4   8.3e-05   10.1   0.1   1.8   2   0   0   2   2   2   1 -
+prokka_ann_rfam_00008 -          NMD3                 PF04981.16   2.1e-05   12.5   0.2   3.2e-05   11.9   0.2   1.3   1   1   0   1   1   1   1 -
+prokka_ann_rfam_00004 -          NPCBM_assoc          PF10633.12   3.7e-07   18.9   0.8     0.014    4.2   0.0   6.4   7   2   0   7   7   7   2 -
+prokka_ann_rfam_00019 -          Pyr_excise           PF03013.17   4.1e-20   60.5   0.0   5.8e-20   60.0   0.0   1.2   1   0   0   1   1   1   1 -
+prokka_ann_rfam_00002 -          SCP2                 PF02036.20   2.6e-12   35.7   0.0   3.2e-12   35.4   0.0   1.1   1   0   0   1   1   1   1 -
+prokka_ann_rfam_00004 -          TRAP_beta            PF05753.17   3.9e-09   24.6   0.4   0.00051    7.9   0.1   4.0   4   0   0   4   4   4   3 -
+prokka_ann_rfam_00008 -          UTRA                 PF07702.16   2.3e-05   12.7   0.0   2.5e-05   12.6   0.0   1.1   1   0   0   1   1   1   1 -
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      domain_prediction/Pfam-A.hmm
+# Target file:     blast_search/hypotetical_unblasted_proteins.faa
+# Option settings: hmmsearch --tblout domain_prediction/hypo_undlasted_domains.tsv -E 1e-4 --cpu 10 domain_prediction/Pfam-A.hmm blast_search/hypotetical_unblasted_proteins.faa 
+# Current dir:     /home/Nikita.Vaulin/final_project
+# Date:            Sat Dec 24 02:03:09 2022
+# [ok]
