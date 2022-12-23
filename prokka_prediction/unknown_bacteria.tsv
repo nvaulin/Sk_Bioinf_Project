@@ -1,0 +1,22 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+prokka_ann_rfam_00001	CDS	1743	ilvG	2.2.1.6	COG0028	Acetolactate synthase large subunit IlvG
+prokka_ann_rfam_00002	CDS	423				hypothetical protein
+prokka_ann_rfam_00003	CDS	1041	ydjJ	1.-.-.-	COG1063	putative zinc-type alcohol dehydrogenase-like protein YdjJ
+prokka_ann_rfam_00004	CDS	2238				hypothetical protein
+prokka_ann_rfam_00005	CDS	1434	mdtD			Putative multidrug resistance protein MdtD
+prokka_ann_rfam_00006	CDS	1425	bglA	3.2.1.21		Beta-glucosidase A
+prokka_ann_rfam_00007	CDS	1326	serS	6.1.1.11		Serine--tRNA ligase
+prokka_ann_rfam_00008	CDS	198				hypothetical protein
+prokka_ann_rfam_00009	CDS	1146	IMPDH	1.1.1.205		Inosine-5'-monophosphate dehydrogenase
+prokka_ann_rfam_00010	CDS	1383				hypothetical protein
+prokka_ann_rfam_00011	CDS	1314				hypothetical protein
+prokka_ann_rfam_00012	CDS	597	rlmE	2.1.1.166	COG0293	Ribosomal RNA large subunit methyltransferase E
+prokka_ann_rfam_00013	CDS	387	gcvH		COG0509	Glycine cleavage system H protein
+prokka_ann_rfam_00014	CDS	519	thpR	3.1.4.58		RNA 2',3'-cyclic phosphodiesterase
+prokka_ann_rfam_00015	CDS	264				hypothetical protein
+prokka_ann_rfam_00016	CDS	588				hypothetical protein
+prokka_ann_rfam_00017	CDS	549				hypothetical protein
+prokka_ann_rfam_00018	CDS	963		1.14.13.239		Carnitine monooxygenase oxygenase subunit
+prokka_ann_rfam_00019	CDS	450				hypothetical protein
+prokka_ann_rfam_00020	CDS	1389	aglA	3.2.1.20	COG1486	Alpha-glucosidase
+prokka_ann_rfam_00021	CDS	1293	exuT			Hexuronate transporter

@@ -1,0 +1,162 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:21 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all unique)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all unique)
+DISC_FEATURE_COUNT:CDS: 21 present
+DISC_COUNT_NUCLEOTIDES:1 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:21 features have inconsistent gene locations.
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:1 comment descriptors were found (all same)
+MISSING_GENOMEASSEMBLY_COMMENTS:1 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:1 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:1 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:1 sequences do not include structured comments.
+MISSING_PROJECT:22 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::21 proteins have invalid IDs.
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_1 (length 580)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_2 (length 140)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_3 (length 346)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_4 (length 745)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_5 (length 477)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_6 (length 474)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_7 (length 441)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_8 (length 65)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_9 (length 381)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_10 (length 460)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_11 (length 437)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_12 (length 198)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_13 (length 128)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_14 (length 172)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_15 (length 87)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_16 (length 195)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_17 (length 182)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_18 (length 320)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_19 (length 149)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_20 (length 462)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_21 (length 430)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 21 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::1 nucleotide Bioseqs are present
+prokka_prediction/unknown_bacteria:Vaulin_Nikita (length 22521)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::21 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_prediction/unknown_bacteria:CDS	Acetolactate synthase large subunit IlvG	Vaulin_Nikita:c1745-3	prokka_ann_rfam_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_prediction/unknown_bacteria:CDS	hypothetical protein	Vaulin_Nikita:c2173-1751	prokka_ann_rfam_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_prediction/unknown_bacteria:CDS	putative zinc-type alcohol dehydrogenase-like protein YdjJ	Vaulin_Nikita:c3197-2157	prokka_ann_rfam_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_prediction/unknown_bacteria:CDS	hypothetical protein	Vaulin_Nikita:c5482-3245	prokka_ann_rfam_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_prediction/unknown_bacteria:CDS	Putative multidrug resistance protein MdtD	Vaulin_Nikita:c6917-5484	prokka_ann_rfam_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_prediction/unknown_bacteria:CDS	Beta-glucosidase A	Vaulin_Nikita:7182-8606	prokka_ann_rfam_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_prediction/unknown_bacteria:CDS	Serine--tRNA ligase	Vaulin_Nikita:9223-10548	prokka_ann_rfam_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_prediction/unknown_bacteria:CDS	hypothetical protein	Vaulin_Nikita:10835-11032	prokka_ann_rfam_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_prediction/unknown_bacteria:CDS	Inosine-5'-monophosphate dehydrogenase	Vaulin_Nikita:11029-12174	prokka_ann_rfam_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_prediction/unknown_bacteria:CDS	hypothetical protein	Vaulin_Nikita:12185-13567	prokka_ann_rfam_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_prediction/unknown_bacteria:CDS	hypothetical protein	Vaulin_Nikita:13574-14887	prokka_ann_rfam_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_prediction/unknown_bacteria:CDS	Ribosomal RNA large subunit methyltransferase E	Vaulin_Nikita:c15498-14902	prokka_ann_rfam_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_prediction/unknown_bacteria:CDS	Glycine cleavage system H protein	Vaulin_Nikita:c15885-15499	prokka_ann_rfam_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_prediction/unknown_bacteria:CDS	RNA 2',3'-cyclic phosphodiesterase	Vaulin_Nikita:15953-16471	prokka_ann_rfam_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_prediction/unknown_bacteria:CDS	hypothetical protein	Vaulin_Nikita:c16739-16476	prokka_ann_rfam_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_prediction/unknown_bacteria:CDS	hypothetical protein	Vaulin_Nikita:c17412-16825	prokka_ann_rfam_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_prediction/unknown_bacteria:CDS	hypothetical protein	Vaulin_Nikita:c18108-17560	prokka_ann_rfam_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_prediction/unknown_bacteria:CDS	Carnitine monooxygenase oxygenase subunit	Vaulin_Nikita:c19174-18212	prokka_ann_rfam_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_prediction/unknown_bacteria:CDS	hypothetical protein	Vaulin_Nikita:19269-19718	prokka_ann_rfam_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_prediction/unknown_bacteria:CDS	Alpha-glucosidase	Vaulin_Nikita:19753-21141	prokka_ann_rfam_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_prediction/unknown_bacteria:CDS	Hexuronate transporter	Vaulin_Nikita:21180-22472	prokka_ann_rfam_00021
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::1 comment descriptors were found (all same)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::1 bioseqs are missing GenomeAssembly structured comments
+prokka_prediction/unknown_bacteria:Vaulin_Nikita (length 22521)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::1 molecule types are not set as mRNA.
+prokka_prediction/unknown_bacteria:Vaulin_Nikita (length 22521)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::1 technique are not set as TSA
+prokka_prediction/unknown_bacteria:Vaulin_Nikita (length 22521)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::1 sequences do not include structured comments.
+prokka_prediction/unknown_bacteria:Vaulin_Nikita (length 22521)
+
+DiscRep_ALL:MISSING_PROJECT::22 sequences do not include project.
+prokka_prediction/unknown_bacteria:Vaulin_Nikita (length 22521)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_1 (length 580)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_2 (length 140)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_3 (length 346)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_4 (length 745)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_5 (length 477)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_6 (length 474)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_7 (length 441)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_8 (length 65)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_9 (length 381)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_10 (length 460)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_11 (length 437)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_12 (length 198)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_13 (length 128)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_14 (length 172)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_15 (length 87)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_16 (length 195)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_17 (length 182)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_18 (length 320)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_19 (length 149)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_20 (length 462)
+prokka_prediction/unknown_bacteria:Vaulin_Nikita_21 (length 430)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::1 Molinfos are missing field technique
+prokka_prediction/unknown_bacteria:Vaulin_Nikita (length 22521)
+
