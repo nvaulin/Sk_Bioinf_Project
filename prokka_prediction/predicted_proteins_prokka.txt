@@ -1,0 +1,11 @@
+prokka_ann_rfam_00001 3D-(3,5/4)-trihydroxycyclohexane-1,2-dione hydrolase
+prokka_ann_rfam_00003 L-threonine 3-dehydrogenase
+prokka_ann_rfam_00005 Putative multidrug resistance protein MdtD
+prokka_ann_rfam_00006 Beta-galactosidase
+prokka_ann_rfam_00007 Serine--tRNA ligase
+prokka_ann_rfam_00009 Inosine-5'-monophosphate dehydrogenase
+prokka_ann_rfam_00010 Zinc metalloprotease TldD 
+prokka_ann_rfam_00012 Ribosomal RNA large subunit methyltransferase E
+prokka_ann_rfam_00013 Glycine cleavage system H protein
+prokka_ann_rfam_00014 RNA 2',3'-cyclic phosphodiesterase
+prokka_ann_rfam_00018 Carnitine monooxygenase oxygenase subunit

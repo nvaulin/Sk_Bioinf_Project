@@ -1,0 +1,5 @@
+prokka_ann_rfam_00002
+prokka_ann_rfam_00004
+prokka_ann_rfam_00008
+prokka_ann_rfam_00017
+prokka_ann_rfam_00019

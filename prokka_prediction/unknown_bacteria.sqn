@@ -38,7 +38,7 @@ Seq-entry ::= set {
               label
                 str "day" ,
               data
-                int 22 } ,
+                int 23 } ,
             {
               label
                 str "year" ,
@@ -48,7 +48,7 @@ Seq-entry ::= set {
           std {
             year 2022 ,
             month 12 ,
-            day 22 } } ,
+            day 23 } } ,
       seq-set {
         seq {
           id {
@@ -357,7 +357,8 @@ TT" } } ,
             local
               str "Vaulin_Nikita_1" } ,
           descr {
-            title "Acetolactate synthase large subunit IlvG [Genus species]" ,
+            title "3D-(3,5/4)-trihydroxycyclohexane-1,2-dione hydrolase [Genus
+ species]" ,
             molinfo {
               biomol peptide ,
               tech concept-trans } } ,
@@ -385,9 +386,10 @@ KGLRDAIRRAKESGLPAVIDVKIDPEKIPPDFQTLATIWLEGCESPPKEEYEVKKIN" } ,
                     data
                       prot {
                         name {
-                          "Acetolactate synthase large subunit IlvG" } ,
+                          "3D-(3,5/4)-trihydroxycyclohexane-1,2-dione
+ hydrolase" } ,
                         ec {
-                          "2.2.1.6" } } ,
+                          "3.7.1.22" } } ,
                     location
                       int {
                         from 0 ,
@@ -436,8 +438,7 @@ YSRYNIG" } ,
             local
               str "Vaulin_Nikita_3" } ,
           descr {
-            title "putative zinc-type alcohol dehydrogenase-like protein YdjJ
- [Genus species]" ,
+            title "L-threonine 3-dehydrogenase [Genus species]" ,
             molinfo {
               biomol peptide ,
               tech concept-trans } } ,
@@ -462,10 +463,9 @@ GMAIKLLSSRGENFRGIITSVIPLEDIVESGFKRLLDRPSEGKVVVKIGGDIDEVRK" } ,
                     data
                       prot {
                         name {
-                          "putative zinc-type alcohol dehydrogenase-like
- protein YdjJ" } ,
+                          "L-threonine 3-dehydrogenase" } ,
                         ec {
-                          "1.-.-.-" } } ,
+                          "1.1.1.103" } } ,
                     location
                       int {
                         from 0 ,
@@ -561,7 +561,7 @@ QAFDLIYITGITVAFITLFLVSLLKKVNIGGV" } ,
             local
               str "Vaulin_Nikita_6" } ,
           descr {
-            title "Beta-glucosidase A [Genus species]" ,
+            title "Beta-galactosidase [Genus species]" ,
             molinfo {
               biomol peptide ,
               tech concept-trans } } ,
@@ -588,9 +588,9 @@ PDPLLTSSRGESSCWPSHGEDVVHQCWRL" } ,
                     data
                       prot {
                         name {
-                          "Beta-glucosidase A" } ,
+                          "Beta-galactosidase" } ,
                         ec {
-                          "3.2.1.21" } } ,
+                          "3.2.1.23" } } ,
                     location
                       int {
                         from 0 ,
@@ -720,7 +720,7 @@ KDKEKEKELRKIMP" } ,
             local
               str "Vaulin_Nikita_10" } ,
           descr {
-            title "hypothetical protein prokka_ann_rfam_00010 [Genus species]" ,
+            title "Zinc metalloprotease TldD [Genus species]" ,
             molinfo {
               biomol peptide ,
               tech concept-trans } } ,
@@ -747,7 +747,9 @@ WMGGPYVRLRNVYMR" } ,
                     data
                       prot {
                         name {
-                          "hypothetical protein" } } ,
+                          "Zinc metalloprotease TldD" } ,
+                        ec {
+                          "3.4.-.-" } } ,
                     location
                       int {
                         from 0 ,
@@ -1094,7 +1096,7 @@ VPGDVEPWEKVKNFIR" } ,
             local
               str "Vaulin_Nikita_20" } ,
           descr {
-            title "Alpha-glucosidase [Genus species]" ,
+            title "hypothetical protein prokka_ann_rfam_00020 [Genus species]" ,
             molinfo {
               biomol peptide ,
               tech concept-trans } } ,
@@ -1121,9 +1123,7 @@ EAILSMPENQDMARHFR" } ,
                     data
                       prot {
                         name {
-                          "Alpha-glucosidase" } ,
-                        ec {
-                          "3.2.1.20" } } ,
+                          "hypothetical protein" } } ,
                     location
                       int {
                         from 0 ,
@@ -1136,7 +1136,7 @@ EAILSMPENQDMARHFR" } ,
             local
               str "Vaulin_Nikita_21" } ,
           descr {
-            title "Hexuronate transporter [Genus species]" ,
+            title "hypothetical protein prokka_ann_rfam_00021 [Genus species]" ,
             molinfo {
               biomol peptide ,
               tech concept-trans } } ,
@@ -1162,7 +1162,7 @@ LMGGILGEAVSLQYAITLVSVIAWIICGILFTVLIFTMPRDVEKLREILRRRGEELNRTAKIY" } ,
                     data
                       prot {
                         name {
-                          "Hexuronate transporter" } } ,
+                          "hypothetical protein" } } ,
                     location
                       int {
                         from 0 ,
@@ -1201,18 +1201,13 @@ LMGGILGEAVSLQYAITLVSVIAWIICGILFTVLIFTMPRDVEKLREILRRRGEELNRTAKIY" } ,
                     val "ab initio prediction:Prodigal:002006" } ,
                   {
                     qual "inference" ,
-                    val "similar to AA sequence:UniProtKB:P9WG39" } } ,
+                    val "protein motif:HAMAP:MF_01669" } } ,
                 xref {
                   {
                     data
                       gene {
-                        locus "ilvG" ,
-                        locus-tag "prokka_ann_rfam_00001" } } } ,
-                dbxref {
-                  {
-                    db "COG" ,
-                    tag
-                      str "COG0028" } } } ,
+                        locus "iolD" ,
+                        locus-tag "prokka_ann_rfam_00001" } } } } ,
               {
                 id
                   local
@@ -1270,12 +1265,12 @@ LMGGILGEAVSLQYAITLVSVIAWIICGILFTVLIFTMPRDVEKLREILRRRGEELNRTAKIY" } ,
                     val "ab initio prediction:Prodigal:002006" } ,
                   {
                     qual "inference" ,
-                    val "similar to AA sequence:UniProtKB:P77280" } } ,
+                    val "similar to AA sequence:UniProtKB:O58389" } } ,
                 xref {
                   {
                     data
                       gene {
-                        locus "ydjJ" ,
+                        locus "tdh" ,
                         locus-tag "prokka_ann_rfam_00003" } } } ,
                 dbxref {
                   {
@@ -1373,13 +1368,18 @@ LMGGILGEAVSLQYAITLVSVIAWIICGILFTVLIFTMPRDVEKLREILRRRGEELNRTAKIY" } ,
                     val "ab initio prediction:Prodigal:002006" } ,
                   {
                     qual "inference" ,
-                    val "similar to AA sequence:UniProtKB:Q08638" } } ,
+                    val "similar to AA sequence:UniProtKB:P22498" } } ,
                 xref {
                   {
                     data
                       gene {
-                        locus "bglA" ,
-                        locus-tag "prokka_ann_rfam_00006" } } } } ,
+                        locus "lacS" ,
+                        locus-tag "prokka_ann_rfam_00006" } } } ,
+                dbxref {
+                  {
+                    db "COG" ,
+                    tag
+                      str "COG2723" } } } ,
               {
                 id
                   local
@@ -1407,13 +1407,18 @@ LMGGILGEAVSLQYAITLVSVIAWIICGILFTVLIFTMPRDVEKLREILRRRGEELNRTAKIY" } ,
                     val "ab initio prediction:Prodigal:002006" } ,
                   {
                     qual "inference" ,
-                    val "similar to AA sequence:UniProtKB:P99178" } } ,
+                    val "similar to AA sequence:UniProtKB:O58441" } } ,
                 xref {
                   {
                     data
                       gene {
                         locus "serS" ,
-                        locus-tag "prokka_ann_rfam_00007" } } } } ,
+                        locus-tag "prokka_ann_rfam_00007" } } } ,
+                dbxref {
+                  {
+                    db "COG" ,
+                    tag
+                      str "COG0172" } } } ,
               {
                 id
                   local
@@ -1502,12 +1507,21 @@ LMGGILGEAVSLQYAITLVSVIAWIICGILFTVLIFTMPRDVEKLREILRRRGEELNRTAKIY" } ,
                 qual {
                   {
                     qual "inference" ,
-                    val "ab initio prediction:Prodigal:002006" } } ,
+                    val "ab initio prediction:Prodigal:002006" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:Q7LXP6" } } ,
                 xref {
                   {
                     data
                       gene {
-                        locus-tag "prokka_ann_rfam_00010" } } } } ,
+                        locus "tldD" ,
+                        locus-tag "prokka_ann_rfam_00010" } } } ,
+                dbxref {
+                  {
+                    db "COG" ,
+                    tag
+                      str "COG0312" } } } ,
               {
                 id
                   local
@@ -1565,7 +1579,7 @@ LMGGILGEAVSLQYAITLVSVIAWIICGILFTVLIFTMPRDVEKLREILRRRGEELNRTAKIY" } ,
                     val "ab initio prediction:Prodigal:002006" } ,
                   {
                     qual "inference" ,
-                    val "similar to AA sequence:UniProtKB:P0C0R7" } } ,
+                    val "similar to AA sequence:UniProtKB:Q97C13" } } ,
                 xref {
                   {
                     data
@@ -1604,18 +1618,13 @@ LMGGILGEAVSLQYAITLVSVIAWIICGILFTVLIFTMPRDVEKLREILRRRGEELNRTAKIY" } ,
                     val "ab initio prediction:Prodigal:002006" } ,
                   {
                     qual "inference" ,
-                    val "similar to AA sequence:UniProtKB:Q5SKW9" } } ,
+                    val "protein motif:HAMAP:MF_00272" } } ,
                 xref {
                   {
                     data
                       gene {
                         locus "gcvH" ,
-                        locus-tag "prokka_ann_rfam_00013" } } } ,
-                dbxref {
-                  {
-                    db "COG" ,
-                    tag
-                      str "COG0509" } } } ,
+                        locus-tag "prokka_ann_rfam_00013" } } } } ,
               {
                 id
                   local
@@ -1643,13 +1652,17 @@ LMGGILGEAVSLQYAITLVSVIAWIICGILFTVLIFTMPRDVEKLREILRRRGEELNRTAKIY" } ,
                     val "ab initio prediction:Prodigal:002006" } ,
                   {
                     qual "inference" ,
-                    val "protein motif:HAMAP:MF_01940" } } ,
+                    val "similar to AA sequence:UniProtKB:O57823" } } ,
                 xref {
                   {
                     data
                       gene {
-                        locus "thpR" ,
-                        locus-tag "prokka_ann_rfam_00014" } } } } ,
+                        locus-tag "prokka_ann_rfam_00014" } } } ,
+                dbxref {
+                  {
+                    db "COG" ,
+                    tag
+                      str "COG1514" } } } ,
               {
                 id
                   local
@@ -1827,21 +1840,12 @@ LMGGILGEAVSLQYAITLVSVIAWIICGILFTVLIFTMPRDVEKLREILRRRGEELNRTAKIY" } ,
                 qual {
                   {
                     qual "inference" ,
-                    val "ab initio prediction:Prodigal:002006" } ,
-                  {
-                    qual "inference" ,
-                    val "similar to AA sequence:UniProtKB:O33830" } } ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
                 xref {
                   {
                     data
                       gene {
-                        locus "aglA" ,
-                        locus-tag "prokka_ann_rfam_00020" } } } ,
-                dbxref {
-                  {
-                    db "COG" ,
-                    tag
-                      str "COG1486" } } } ,
+                        locus-tag "prokka_ann_rfam_00020" } } } } ,
               {
                 id
                   local
@@ -1866,13 +1870,9 @@ LMGGILGEAVSLQYAITLVSVIAWIICGILFTVLIFTMPRDVEKLREILRRRGEELNRTAKIY" } ,
                 qual {
                   {
                     qual "inference" ,
-                    val "ab initio prediction:Prodigal:002006" } ,
-                  {
-                    qual "inference" ,
-                    val "similar to AA sequence:UniProtKB:O34456" } } ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
                 xref {
                   {
                     data
                       gene {
-                        locus "exuT" ,
                         locus-tag "prokka_ann_rfam_00021" } } } } } } } } } }

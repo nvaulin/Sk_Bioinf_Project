@@ -1,24 +1,23 @@
 >Feature Vaulin_Nikita
 1745	3	CDS
-			EC_number	2.2.1.6
-			db_xref	COG:COG0028
-			gene	ilvG
+			EC_number	3.7.1.22
+			gene	iolD
 			inference	ab initio prediction:Prodigal:002006
-			inference	similar to AA sequence:UniProtKB:P9WG39
+			inference	protein motif:HAMAP:MF_01669
 			locus_tag	prokka_ann_rfam_00001
-			product	Acetolactate synthase large subunit IlvG
+			product	3D-(3,5/4)-trihydroxycyclohexane-1,2-dione hydrolase
 2173	1751	CDS
 			inference	ab initio prediction:Prodigal:002006
 			locus_tag	prokka_ann_rfam_00002
 			product	hypothetical protein
 3197	2157	CDS
-			EC_number	1.-.-.-
+			EC_number	1.1.1.103
 			db_xref	COG:COG1063
-			gene	ydjJ
+			gene	tdh
 			inference	ab initio prediction:Prodigal:002006
-			inference	similar to AA sequence:UniProtKB:P77280
+			inference	similar to AA sequence:UniProtKB:O58389
 			locus_tag	prokka_ann_rfam_00003
-			product	putative zinc-type alcohol dehydrogenase-like protein YdjJ
+			product	L-threonine 3-dehydrogenase
 5482	3245	CDS
 			inference	ab initio prediction:Prodigal:002006
 			locus_tag	prokka_ann_rfam_00004
@@ -30,17 +29,19 @@
 			locus_tag	prokka_ann_rfam_00005
 			product	Putative multidrug resistance protein MdtD
 7182	8606	CDS
-			EC_number	3.2.1.21
-			gene	bglA
+			EC_number	3.2.1.23
+			db_xref	COG:COG2723
+			gene	lacS
 			inference	ab initio prediction:Prodigal:002006
-			inference	similar to AA sequence:UniProtKB:Q08638
+			inference	similar to AA sequence:UniProtKB:P22498
 			locus_tag	prokka_ann_rfam_00006
-			product	Beta-glucosidase A
+			product	Beta-galactosidase
 9223	10548	CDS
 			EC_number	6.1.1.11
+			db_xref	COG:COG0172
 			gene	serS
 			inference	ab initio prediction:Prodigal:002006
-			inference	similar to AA sequence:UniProtKB:P99178
+			inference	similar to AA sequence:UniProtKB:O58441
 			locus_tag	prokka_ann_rfam_00007
 			product	Serine--tRNA ligase
 10835	11032	CDS
@@ -55,9 +56,13 @@
 			locus_tag	prokka_ann_rfam_00009
 			product	Inosine-5'-monophosphate dehydrogenase
 12185	13567	CDS
+			EC_number	3.4.-.-
+			db_xref	COG:COG0312
+			gene	tldD
 			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q7LXP6
 			locus_tag	prokka_ann_rfam_00010
-			product	hypothetical protein
+			product	Zinc metalloprotease TldD 
 13574	14887	CDS
 			inference	ab initio prediction:Prodigal:002006
 			locus_tag	prokka_ann_rfam_00011
@@ -67,21 +72,20 @@
 			db_xref	COG:COG0293
 			gene	rlmE
 			inference	ab initio prediction:Prodigal:002006
-			inference	similar to AA sequence:UniProtKB:P0C0R7
+			inference	similar to AA sequence:UniProtKB:Q97C13
 			locus_tag	prokka_ann_rfam_00012
 			product	Ribosomal RNA large subunit methyltransferase E
 15885	15499	CDS
-			db_xref	COG:COG0509
 			gene	gcvH
 			inference	ab initio prediction:Prodigal:002006
-			inference	similar to AA sequence:UniProtKB:Q5SKW9
+			inference	protein motif:HAMAP:MF_00272
 			locus_tag	prokka_ann_rfam_00013
 			product	Glycine cleavage system H protein
 15953	16471	CDS
 			EC_number	3.1.4.58
-			gene	thpR
+			db_xref	COG:COG1514
 			inference	ab initio prediction:Prodigal:002006
-			inference	protein motif:HAMAP:MF_01940
+			inference	similar to AA sequence:UniProtKB:O57823
 			locus_tag	prokka_ann_rfam_00014
 			product	RNA 2',3'-cyclic phosphodiesterase
 16739	16476	CDS
@@ -107,16 +111,10 @@
 			locus_tag	prokka_ann_rfam_00019
 			product	hypothetical protein
 19753	21141	CDS
-			EC_number	3.2.1.20
-			db_xref	COG:COG1486
-			gene	aglA
 			inference	ab initio prediction:Prodigal:002006
-			inference	similar to AA sequence:UniProtKB:O33830
 			locus_tag	prokka_ann_rfam_00020
-			product	Alpha-glucosidase
+			product	hypothetical protein
 21180	22472	CDS
-			gene	exuT
 			inference	ab initio prediction:Prodigal:002006
-			inference	similar to AA sequence:UniProtKB:O34456
 			locus_tag	prokka_ann_rfam_00021
-			product	Hexuronate transporter
+			product	hypothetical protein

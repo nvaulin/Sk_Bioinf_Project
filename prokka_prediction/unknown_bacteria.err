@@ -52,13 +52,13 @@ prokka_prediction/unknown_bacteria:Vaulin_Nikita (length 22521)
 
 DiscRep_ALL:FEATURE_LOCATION_CONFLICT::21 features have inconsistent gene locations.
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-prokka_prediction/unknown_bacteria:CDS	Acetolactate synthase large subunit IlvG	Vaulin_Nikita:c1745-3	prokka_ann_rfam_00001
+prokka_prediction/unknown_bacteria:CDS	3D-(3,5/4)-trihydroxycyclohexane-1,2-dione hydrolase	Vaulin_Nikita:c1745-3	prokka_ann_rfam_00001
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 prokka_prediction/unknown_bacteria:CDS	hypothetical protein	Vaulin_Nikita:c2173-1751	prokka_ann_rfam_00002
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-prokka_prediction/unknown_bacteria:CDS	putative zinc-type alcohol dehydrogenase-like protein YdjJ	Vaulin_Nikita:c3197-2157	prokka_ann_rfam_00003
+prokka_prediction/unknown_bacteria:CDS	L-threonine 3-dehydrogenase	Vaulin_Nikita:c3197-2157	prokka_ann_rfam_00003
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 prokka_prediction/unknown_bacteria:CDS	hypothetical protein	Vaulin_Nikita:c5482-3245	prokka_ann_rfam_00004
@@ -67,7 +67,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 prokka_prediction/unknown_bacteria:CDS	Putative multidrug resistance protein MdtD	Vaulin_Nikita:c6917-5484	prokka_ann_rfam_00005
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-prokka_prediction/unknown_bacteria:CDS	Beta-glucosidase A	Vaulin_Nikita:7182-8606	prokka_ann_rfam_00006
+prokka_prediction/unknown_bacteria:CDS	Beta-galactosidase	Vaulin_Nikita:7182-8606	prokka_ann_rfam_00006
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 prokka_prediction/unknown_bacteria:CDS	Serine--tRNA ligase	Vaulin_Nikita:9223-10548	prokka_ann_rfam_00007
@@ -79,7 +79,7 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 prokka_prediction/unknown_bacteria:CDS	Inosine-5'-monophosphate dehydrogenase	Vaulin_Nikita:11029-12174	prokka_ann_rfam_00009
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-prokka_prediction/unknown_bacteria:CDS	hypothetical protein	Vaulin_Nikita:12185-13567	prokka_ann_rfam_00010
+prokka_prediction/unknown_bacteria:CDS	Zinc metalloprotease TldD	Vaulin_Nikita:12185-13567	prokka_ann_rfam_00010
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 prokka_prediction/unknown_bacteria:CDS	hypothetical protein	Vaulin_Nikita:13574-14887	prokka_ann_rfam_00011
@@ -109,10 +109,10 @@ DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
 prokka_prediction/unknown_bacteria:CDS	hypothetical protein	Vaulin_Nikita:19269-19718	prokka_ann_rfam_00019
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-prokka_prediction/unknown_bacteria:CDS	Alpha-glucosidase	Vaulin_Nikita:19753-21141	prokka_ann_rfam_00020
+prokka_prediction/unknown_bacteria:CDS	hypothetical protein	Vaulin_Nikita:19753-21141	prokka_ann_rfam_00020
 
 DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
-prokka_prediction/unknown_bacteria:CDS	Hexuronate transporter	Vaulin_Nikita:21180-22472	prokka_ann_rfam_00021
+prokka_prediction/unknown_bacteria:CDS	hypothetical protein	Vaulin_Nikita:21180-22472	prokka_ann_rfam_00021
 
 DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
 

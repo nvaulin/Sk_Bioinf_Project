@@ -1,4 +1,4 @@
-LOCUS       Vaulin_Nikita          22521 bp    DNA     linear       22-DEC-2022
+LOCUS       Vaulin_Nikita          22521 bp    DNA     linear       23-DEC-2022
 DEFINITION  Genus species strain strain.
 ACCESSION   
 VERSION
@@ -14,15 +14,15 @@ FEATURES             Location/Qualifiers
                      /mol_type="genomic DNA"
                      /strain="strain"
      CDS             complement(3..1745)
-                     /gene="ilvG"
+                     /gene="iolD"
                      /locus_tag="prokka_ann_rfam_00001"
-                     /EC_number="2.2.1.6"
+                     /EC_number="3.7.1.22"
                      /inference="ab initio prediction:Prodigal:002006"
-                     /inference="similar to AA sequence:UniProtKB:P9WG39"
+                     /inference="protein motif:HAMAP:MF_01669"
                      /codon_start=1
                      /transl_table=11
-                     /product="Acetolactate synthase large subunit IlvG"
-                     /db_xref="COG:COG0028"
+                     /product="3D-(3,5/4)-trihydroxycyclohexane-1,2-dione
+                     hydrolase"
                      /translation="MARITGGELLKRILEKEGVRYVFGVPGDQLYPFLNALRDSSIEF
                      ITFHDEASAAYAADAYSRVTGRLGVVAGTVGPGGANLIGGVYPAFAEGIPLLIITAQN
                      QTFRSYPDHGSMQALDQYLLFKPVTKWNAVVNSWKRIVELTERAIRNALTGQPGPVHL
@@ -44,15 +44,14 @@ FEATURES             Location/Qualifiers
                      VRDGITLGYSMKGGKMVDIWLGERETDFVISGRYGIWVDLVTGRTGVTSAFLQRKLRI
                      RGEFSRILRLSKPTEYWIQLLRRIPTEFDGIYSRYNIG"
      CDS             complement(2157..3197)
-                     /gene="ydjJ"
+                     /gene="tdh"
                      /locus_tag="prokka_ann_rfam_00003"
-                     /EC_number="1.-.-.-"
+                     /EC_number="1.1.1.103"
                      /inference="ab initio prediction:Prodigal:002006"
-                     /inference="similar to AA sequence:UniProtKB:P77280"
+                     /inference="similar to AA sequence:UniProtKB:O58389"
                      /codon_start=1
                      /transl_table=11
-                     /product="putative zinc-type alcohol dehydrogenase-like
-                     protein YdjJ"
+                     /product="L-threonine 3-dehydrogenase"
                      /db_xref="COG:COG1063"
                      /translation="MRAAFFYGAGDIRVEDAEIPEIGDDDVLIRVAYCGICGSDLTAY
                      RTGNYVPGIIIGHEFSGIVEKTGSKVNDLRKGDRVVGSSLIPCGHCEFCLSGKPNLCK
@@ -99,14 +98,15 @@ FEATURES             Location/Qualifiers
                      GMNQLFRNVGSVIAPAIAGVIETGYQQAVLMGVLPIKFSSLSMIPLFGFYPSQQAFDL
                      IYITGITVAFITLFLVSLLKKVNIGGV"
      CDS             7182..8606
-                     /gene="bglA"
+                     /gene="lacS"
                      /locus_tag="prokka_ann_rfam_00006"
-                     /EC_number="3.2.1.21"
+                     /EC_number="3.2.1.23"
                      /inference="ab initio prediction:Prodigal:002006"
-                     /inference="similar to AA sequence:UniProtKB:Q08638"
+                     /inference="similar to AA sequence:UniProtKB:P22498"
                      /codon_start=1
                      /transl_table=11
-                     /product="Beta-glucosidase A"
+                     /product="Beta-galactosidase"
+                     /db_xref="COG:COG2723"
                      /translation="MSFPENFLWGTAISAFQTEMGSSRESISDKSDWYVWVHDADNIN
                      DGTVSGDLPENGDGFWDYYKQDIDNAKWLGNNVIRLSLDWARIFPDETFEVPVRVKRT
                      GGIITDVSLESGSMKKLESIADMDAVDHYRKIFSYIRSKGMKVFLTLYHWPLPLWLHD
@@ -121,10 +121,11 @@ FEATURES             Location/Qualifiers
                      /locus_tag="prokka_ann_rfam_00007"
                      /EC_number="6.1.1.11"
                      /inference="ab initio prediction:Prodigal:002006"
-                     /inference="similar to AA sequence:UniProtKB:P99178"
+                     /inference="similar to AA sequence:UniProtKB:O58441"
                      /codon_start=1
                      /transl_table=11
                      /product="Serine--tRNA ligase"
+                     /db_xref="COG:COG0172"
                      /translation="MLDINLIRNNPEVVRENQKKRNLDPADVDKILELDRIWRENLQV
                      LERLRNLKNRKVLEISSKLKKGEDASSEKDEVKKLNDDIERVENIVEEVKRKRDSLLW
                      KMPNILDEDVPYGKDENDNVPFRFWGRAKVYREDLDNFLRDSKGSMEYEIIEDRPLSH
@@ -158,11 +159,15 @@ FEATURES             Location/Qualifiers
                      ITGLETEDPSVFDTIYDIVEKYLKKINKFENYRPQSLTFHVEEHRPNSNEIEYTLRAR
                      LVTEKKVFYKTDHDWNLFSLFDRVMSSLYRTVRKDKEKEKELRKIMP"
      CDS             12185..13567
+                     /gene="tldD"
                      /locus_tag="prokka_ann_rfam_00010"
+                     /EC_number="3.4.-.-"
                      /inference="ab initio prediction:Prodigal:002006"
+                     /inference="similar to AA sequence:UniProtKB:Q7LXP6"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="Zinc metalloprotease TldD"
+                     /db_xref="COG:COG0312"
                      /translation="MDYESLLSEIEKQARYGEIRVMRVRRNMVILKNGVISGIETTDE
                      TGFAVRVLDRNFSFFSTSNLEPSNLKKTVERAIRMAKTLDKREVKLSQEEEVKDRWGV
                      DEVNKIEDFPLEEKVSHMMDVDRSLESSGVPIRMQFLRDKITEIEYLNTDGSRISGRI
@@ -191,7 +196,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="prokka_ann_rfam_00012"
                      /EC_number="2.1.1.166"
                      /inference="ab initio prediction:Prodigal:002006"
-                     /inference="similar to AA sequence:UniProtKB:P0C0R7"
+                     /inference="similar to AA sequence:UniProtKB:Q97C13"
                      /codon_start=1
                      /transl_table=11
                      /product="Ribosomal RNA large subunit methyltransferase E"
@@ -204,23 +209,22 @@ FEATURES             Location/Qualifiers
                      /gene="gcvH"
                      /locus_tag="prokka_ann_rfam_00013"
                      /inference="ab initio prediction:Prodigal:002006"
-                     /inference="similar to AA sequence:UniProtKB:Q5SKW9"
+                     /inference="protein motif:HAMAP:MF_00272"
                      /codon_start=1
                      /transl_table=11
                      /product="Glycine cleavage system H protein"
-                     /db_xref="COG:COG0509"
                      /translation="MEIDKRMKYSKTHEWVLVEGNKAKIGVSDYAQQQLTDIVFVELP
                      EVNTRVEKGKSFGVIESVKAVEDVYSPITGKVLSKNQAVIDTPELINNDPYNAWLIEV
                      SIENPKELDELMDAEAYKKFLETESH"
      CDS             15953..16471
-                     /gene="thpR"
                      /locus_tag="prokka_ann_rfam_00014"
                      /EC_number="3.1.4.58"
                      /inference="ab initio prediction:Prodigal:002006"
-                     /inference="protein motif:HAMAP:MF_01940"
+                     /inference="similar to AA sequence:UniProtKB:O57823"
                      /codon_start=1
                      /transl_table=11
                      /product="RNA 2',3'-cyclic phosphodiesterase"
+                     /db_xref="COG:COG1514"
                      /translation="MRLFTGIKINAGDEIIEMQRYFKNRYRMKAVEIENMHITLKFIG
                      EVDDREVEKIDSILSGIYFNGFNIKLRGAGAFPDERRARVIWIGIISDDLLKLGREVS
                      EKLSMYNDEKFSPHLTIGRLKDITNISEDLKKYRERDFGEFYVDHFSLYKSTLTPNGP
@@ -277,15 +281,11 @@ FEATURES             Location/Qualifiers
                      RFRNQRDPIKAINTYLFYILRESERRGFNFCKDKIEIYKVDLSLKIPVTEGQLKYEFL
                      LLKHKLSKRSSYEYLKLENLENIEPNELFIVVPGDVEPWEKVKNFIR"
      CDS             19753..21141
-                     /gene="aglA"
                      /locus_tag="prokka_ann_rfam_00020"
-                     /EC_number="3.2.1.20"
                      /inference="ab initio prediction:Prodigal:002006"
-                     /inference="similar to AA sequence:UniProtKB:O33830"
                      /codon_start=1
                      /transl_table=11
-                     /product="Alpha-glucosidase"
-                     /db_xref="COG:COG1486"
+                     /product="hypothetical protein"
                      /translation="MVTLMKNLKIGVIGAGSAIWSSNFIIDLSLNPGFKGSIVTLMDI
                      DRDRLETVTKFARRYSSERKSEINFEMTLERRKAIEDSDVVINLAMAGGHSYYERMRR
                      ISEKYGYYRGINSVEWNMVSDYHTIWGFKQFKLAMEIANDLERYSQDSWLIQISNPVL
@@ -296,13 +296,11 @@ FEATURES             Location/Qualifiers
                      NIPSRILHFSIYPRIMRMEWAIDAFLEGGRQTLEQWLIDDPRTRNERQVNSVIEAILS
                      MPENQDMARHFR"
      CDS             21180..22472
-                     /gene="exuT"
                      /locus_tag="prokka_ann_rfam_00021"
                      /inference="ab initio prediction:Prodigal:002006"
-                     /inference="similar to AA sequence:UniProtKB:O34456"
                      /codon_start=1
                      /transl_table=11
-                     /product="Hexuronate transporter"
+                     /product="hypothetical protein"
                      /translation="MSSGRYRWTVLTIMSSFLVIQAADTYILSAVSPQLITEFHISYE
                      DLGLLFTSTLIIATVLYPVWGYLYDKYSRKFLTSIMALVLGATTWLNALTRAFSQFFI
                      TRLLTAIGYPVPSGVFTLTSDYFEPRSRGKAMGFINAATPIGYLLGIMIPLLIIGAGL
